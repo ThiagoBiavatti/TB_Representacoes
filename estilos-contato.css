@@ -1,0 +1,109 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0px;
+  text-align: center;
+}
+
+header img {
+  max-width: 500px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #cccccc;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: #FF4500;
+}
+
+/* MAIN CONTEÚDO */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.info-contato {
+  flex: 1;
+  max-width: 400px;
+}
+
+.horario-funcionamento {
+  flex: 1;
+  max-width: 400px;
+}
+
+.formulario-contato {
+  flex: 1 1 400px;
+  max-width: 400px;
+}
+
+.formulario-contato form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.formulario-contato button {
+  background-color: #FF4500;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario-contato button:hover {
+  background-color: #FF6347;
+}
+
+/* Atendimento 24H */
+.atendimento-24h {
+  flex: 1;
+  max-width: 600px;
+  padding-top: 30px;
+  color: #blue;
+}
+
+/* FOOTER */
+footer {
+  background-color: #;
+  color: #ff4500;
+  text-align: center;
+  padding: 15px 0;
+  position: center;
+}
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+h4{
+	color: #ffffff
+}
