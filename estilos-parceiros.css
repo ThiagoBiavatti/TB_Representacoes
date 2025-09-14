@@ -260,7 +260,12 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 1em;
-  margin-top: 30px;
+  position: fixed;   /* fixa o rodapé */
+  bottom: 0;         /* cola no final da página */
+  left: 0;           /* garante alinhamento */
+  width: 100%;       /* ocupa toda a largura */
 }
+
+
 
 
